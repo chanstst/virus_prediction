@@ -34,11 +34,11 @@ As part of our [<ins>data exploration</ins>](code/03-eda), we observed that only
 
 There are two sets of weather data coming from two separate weather stations. When we look at weather-related factors that contribute to an optimal environment for the breeding of *Culex* mosquitoes, we find that dry weather (or humidity) provdes a good breeding environment for mosquitoes. From this, we look to the temperature and precipitation to determine if there are any significant differences between the two weather stations. From figures 2 and 3, we note no significant differences and so we defer to the nearest station for the weather data of the respective trap locations. 
 
-![](images/temp-stn1-stn2.JPG)
+<img src="images/temp-stn1-stn2.JPG" alt="temp-stn1-stn2" width="60%">
 
 *Figure 2: Temperatures over a year for both station 1 and station 2 respectively*
 
-![](images/rain-stn1-stn2.JPG)
+<img src="images/rain-stn1-stn2.JPG" alt="rain-stn1-stn2" width="60%">
 
 *Figure 3: Total precipitation over a year for both station 1 and station 2 respectively*
 
