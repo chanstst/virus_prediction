@@ -28,7 +28,7 @@ We performed data cleaning on all the datasets - train, test, spray and weather 
 
 As part of our [<ins>data exploration</ins>](code/03-eda), we observed that only certain *Culex* mosquitoes species are carriers of the WNV (Figure 1). This is considered in our model by grouping all non-carriers together, which each of these species are considered as individual features of the model.
 
-![](images/wnv-carriers.JPG)
+<img src="images/wnv-carriers.JPG" alt="carriers" width="60">
 
 *Figure 1: West Nile Virus carriers only in certain species of Culex Msquitoes*
 
