@@ -9,8 +9,10 @@ We are a data scientist team of the Chicago Department of Public Health (CDPH) a
 In evaluation of our model, we look to the confusion matrix which shows the precision and recall trade-off, with priority given to recall. On top of this, we also refer to the ROC-AUC score to measure how good our model is in classifying between WNV presence or not.
 
 #### The Team
-General Assembly Data Science Immersive (DSI 19), Singapore
 Jordan Nalpon, Zawanah Sainuddin, Stephen Chan
+
+From General Assembly Data Science Immersive (DSI 19), Singapore
+
 
 ## Executive Summary
 The objective of this project is to identify areas where WNV is present and subsequently allow for targeted efforts to curb the spread of WNV. 
