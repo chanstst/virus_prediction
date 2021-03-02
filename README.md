@@ -1,4 +1,4 @@
-# Project 4: Predicting West Nile Virus
+# Predicting West Nile Virus
 
 ## Problem Statement
 This is binary classification problem to determine <b>when</b> and <b>where</b> in Chicago is the West Nile Virus(WNV) expected to be present.
@@ -8,41 +8,9 @@ We are a data scientist team of the Chicago Department of Public Health (CDPH) a
 
 In evaluation of our model, we look to the confusion matrix which shows the precision and recall trade-off, with priority given to recall. On top of this, we also refer to the ROC-AUC score to measure how good our model is in classifying between WNV presence or not.
 
-## Folder Organization
-
-    |__ code
-    |   |__ 01-data-cleaning-train-and-test.ipynb   
-    |   |__ 02-data-cleaning-spray-and-weather.ipynb
-    |   |__ 03-eda.ipynb
-    |   |__ 04-modelling-and-tuning.ipynb  
-    |   |__ train.html  
-    |   |__ test.html
-    |   |__ weather.html       
-    |__ data
-    |   |__ 1_raw
-    |   |   |__ train.csv
-    |   |   |__ test.csv
-    |   |   |__ weather.csv
-    |   |   |__ spray.csv
-    |   |__ 2_clean
-    |   |   |__ train.csv
-    |   |   |__ test.csv
-    |   |   |__ weather.csv
-    |   |   |__ spray.csv
-    |   |__ 3__kaggle-submissions
-    |   |   |__ kaggle_submissions.csv
-    |__ images
-    |   |__ wnv-carriers.jpg
-    |   |__ temp-stn1-stn2.jpg
-    |   |__ rain-stn1-stn2.jpg
-    |   |__ baseline-model.jpg
-    |   |__ ada-base.jpg
-    |__ project_management
-    |   |__ P4-project-management.xlsx
-    |__ presentation_slides
-    |   |__ P4-SZJ-presentation.pdf
-    |__ README.md
-
+#### The Team
+General Assembly Data Science Immersive (DSI 19), Singapore
+Jordan Nalpon, Zawanah Sainuddin, Stephen Chan
 
 ## Executive Summary
 The objective of this project is to identify areas where WNV is present and subsequently allow for targeted efforts to curb the spread of WNV. 
@@ -249,3 +217,40 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3322011/
 
 The direct healthcare costs attributable to West Nile virus illness in Ontario, Canada: a population-based cohort study using laboratory and health administrative data (Shing,2019)
 https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-019-4596-9
+
+## Folder Organization
+
+    |__ code
+    |   |__ 01-data-cleaning-train-and-test.ipynb   
+    |   |__ 02-data-cleaning-spray-and-weather.ipynb
+    |   |__ 03-eda.ipynb
+    |   |__ 04-modelling-and-tuning.ipynb  
+    |   |__ train.html  
+    |   |__ test.html
+    |   |__ weather.html       
+    |__ data
+    |   |__ 1_raw
+    |   |   |__ train.csv
+    |   |   |__ test.csv
+    |   |   |__ weather.csv
+    |   |   |__ spray.csv
+    |   |__ 2_clean
+    |   |   |__ train.csv
+    |   |   |__ test.csv
+    |   |   |__ weather.csv
+    |   |   |__ spray.csv
+    |   |__ 3__kaggle-submissions
+    |   |   |__ kaggle_submissions.csv
+    |__ images
+    |   |__ wnv-carriers.jpg
+    |   |__ temp-stn1-stn2.jpg
+    |   |__ rain-stn1-stn2.jpg
+    |   |__ baseline-model.jpg
+    |   |__ ada-base.jpg
+    |__ project_management
+    |   |__ P4-project-management.xlsx
+    |__ presentation_slides
+    |   |__ P4-SZJ-presentation.pdf
+    |__ README.md
+
+
